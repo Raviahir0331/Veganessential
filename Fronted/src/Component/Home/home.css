@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+.items_category > h6:hover{
+  text-decoration: underline;
+  color: rgb(12, 179, 123);
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.hovers > li:hover {
+  color: rgba(36, 172, 36, 0.559);
+  text-decoration: underline;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: "";
+  font-style: normal;
+}
+.roboto {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: "";
+  font-style: normal;
+}
+
+.arsenal-sc-regular {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arsenal-sc-bold {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.arsenal-sc-regular-italic {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.arsenal-sc-bold-italic {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.cart{
+  position: absolute;
+  z-index: 2;
+  top:72px;
+  right:20px;
+  overflow: auto;
+}

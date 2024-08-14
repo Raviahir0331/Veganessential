@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon database.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raviahir0331/Ecommerce_With_mongodb.git"
+  },
+  "author": "ravi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "moongose": "^1.0.0",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.4"
+  }
+}
